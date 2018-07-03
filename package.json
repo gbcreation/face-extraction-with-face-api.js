@@ -1,0 +1,22 @@
+{
+  "name": "trackingjs-face-extraction",
+  "version": "0.1.0",
+  "description": "Faces extraction using Trackingjs",
+  "main": "index.js",
+  "author": "Gontran Baerts",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.5.1",
+    "html-webpack-include-assets-plugin": "^1.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-serve": "^1.0.4"
+  },
+  "scripts": {
+    "start": "webpack-serve --open"
+  },
+  "dependencies": {
+    "face-api.js": "^0.6.0"
+  }
+}
